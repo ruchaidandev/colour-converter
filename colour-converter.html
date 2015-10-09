@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <meta name="description" content="Colour Converter | RuchAidan, which will convert Hex to RGB, CMYK and vise versa" />
+    <meta name="keywords" content="colour, color, Colour Converter | RuchAidan, color Converter,  code generator, cmyk to rgb, rgb to cmyk, hex to rgb, rgb to hex, free, colour code generator" />
+    <meta name="author" content="RuchAidan | RP Development" />
+    <meta name="revisit-after" content="2 days" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="copyright" content="RuchAidan | RP Development" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+       
+    <meta property="og:site_name" content="RuchAidan | RP Development">
+	<meta property="og:title" content="Colour Converter | RuchAidan" />
+	<meta property="og:type" content="article" />
+	<meta property="og:description" content="Colour Converter | RuchAidan, which will convert Hex to RGB, CMYK and vise versa" />
+	<meta property="og:image" content="http://rpdev.lk/images/colourConverter.png" />
+	<meta property="og:url" content="http://rpdev.lk/" />
+    <meta property="article:author" content="RuchAidan | RP Development" />
+    <meta property="fb:app_id" content="" />
+
+	<meta name="twitter:site" content="RuchAidan | RP Development">
+	<meta name="twitter:title" content="Colour Converter | RuchAidan">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="Colour Converter | RuchAidan, which will convert Hex to RGB, CMYK and vise versa">
+	<meta name="twitter:image" content="http://rpdev.lk/images/colourConverter.png">
+	<meta name="twitter:image:src" content="http://rpdev.lk/images/colourConverter.png">
+	<meta name="twitter:url" content="http://rpdev.lk/">
+    
+    <link rel="author" href="RuchAidan | RP Development">
+    <link rel="publisher" href="RuchAidan | RP Development">
+    <meta itemprop="name" content="Colour Converter | RuchAidan">
+    <meta itemprop="description" content="Colour Converter | RuchAidan, which will convert Hex to RGB, CMYK and vise versa">
+    <meta itemprop="image" content="http://rpdev.lk/images/colourConverter.png">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Colour Converter | RuchAidan</title>
+	  
+	<link rel="stylesheet" href="css/colour-converter.css" media="all"/>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link href="css/bootstrap-colorpicker.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/colour-converter.min.js"></script>
+
+</head>
+
+<body>
+	<!-- Navigation -->
+    <nav class="navbar navbar-rpd navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logoWhite.svg" alt="RP Development" class="main-logo" />
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/tools">Tools</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://rpdev.lk/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="inputTab">
+            <form>
+                <p class="colourPick">
+                <input type="text" id="hex" placeholder="HEX" onChange="convert('hex')" />
+                </p>
+                <p><input type="text" id="rgb" placeholder="RGB" onChange="convert('rgb')"/></p>
+                <p><input type="text" id="cmyk" placeholder="CMYK" onChange="convert('cmyk')"/></p>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; RP Development 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/rpdevelopment"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="../sitemap">Site Map</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 
+ Title: Colour Converter
+ Author:  RP Development
+ Date: October 01,2015
+ http://rpdev.lk
+ */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	background-color:#e6edf3;
+}
+.inputTab{
+	width:550px;
+	height:auto;
+	margin: auto;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	padding-top:130px;
+}
+@media only screen and (min-width: 468px) and (max-width: 600px) {
+	.inputTab{
+		width:400px;
+	}
+}
+@media only screen and (max-width: 468px) {
+	.inputTab{
+		width:320px;
+	}
+}
+.inputTab form input{
+	width:88%;
+	margin-left:5%;
+	margin-right:5%;
+	height:50px;
+	background-color:transparent;
+	border:0;
+	font-family:'Lato';
+	font-size:24px;
+	padding:10px;
+	color:#000;
+	border-bottom:1px dashed #000;
+}
+.inputTab form input:focus{
+	border-bottom:1px solid #fff;
+}
+.footer{
+	width:100% !important;
+	position:absolute !important;
+	bottom:0 !important;
+}
