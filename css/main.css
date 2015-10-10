@@ -14,44 +14,6 @@ body {
 	width:100%;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-body.portfolio{
-	background: url(../images/portfolioImg/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-body.dev{
-	background: url(../images/dev.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-body.error404{
-	background: url(../images/bgMain.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color:#fff !important;
-}
-#dev .container{
-	background-color:rgba(255,255,255,.7);
-}
-#about{
-	background: url(../images/bg2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width:100%;
-  min-height:100%;
-  overflow:hidden;
-}
-#about .container{
-	background-color:rgba(255,255,255,0.9) !important;
-}
 .col-lg-12 p{
 	text-align:justify;
 }
